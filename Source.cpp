@@ -49,6 +49,9 @@ string convertBin(string seq, int last);
 void traverse(File* tr, string huff, string fileName);
 
 
+// Начало гланвого кода
+
+
 int main()
 {
 	char userResponse;
@@ -569,6 +572,10 @@ int main()
 	traverse(tree, convertBin(compressedText, lastCode), "unzippedfile.txt");*/
 	return 0;
 }
+
+
+// Конец главного кода
+
 
 string cleanCodes(string input) {
 
